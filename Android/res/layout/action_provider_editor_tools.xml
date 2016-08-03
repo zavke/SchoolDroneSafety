@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_tools_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center">
+
+    <org.droidplanner.android.widgets.button.RadioButtonCenter
+        android:id="@+id/editor_tools_cmd"
+        style="@style/editorButton"
+        android:button="@drawable/ic_action_laptop"
+        />
+
+    <org.droidplanner.android.widgets.button.RadioButtonCenter
+        android:id="@+id/editor_tools_marker"
+        style="@style/editorButton"
+        android:button="@drawable/ic_editor_wp_black"
+        />
+
+    <org.droidplanner.android.widgets.button.RadioButtonCenter
+        android:id="@+id/editor_tools_draw"
+        style="@style/editorButton"
+        android:button="@drawable/ic_editor_draw_black"
+        />
+
+    <org.droidplanner.android.widgets.button.RadioButtonCenter
+        android:id="@+id/editor_tools_trash"
+        style="@style/editorButton.Trash"
+        android:button="@drawable/ic_editor_trash_black"
+        />
+
+</RadioGroup>
+
